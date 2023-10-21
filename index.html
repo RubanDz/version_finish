@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Website Development</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--Добавил Favicon-->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<!--Добавил Favicon-->
+
+
+</head>
+
+
+
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="topN3 w3-hide-small">
+      <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+        <a href="#" class="w3-bar-item w3-button">ГЛАВНАЯ</a>
+        <a href="#menu" class="w3-bar-item w3-button">ПРЕДЛОЖЕНИЕ</a>
+        <a href="#about" class="w3-bar-item w3-button">О НАС</a>
+        <a href="#myMap" class="w3-bar-item w3-button">КОНТАКТЫ</a>
+      </div>
+    </div>
+
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+      <div class="w3-display-bottomleft w3-padding">
+        <span class="w3-tag w3-xlarge">У нас лучшие цены!</span>
+      </div>
+      <div class="w3-display-middle w3-center">
+        <span class="w3-text-white w3-hide-small" style="font-size:60px; font-family: 'Times New Roman', Times, serif;"><br>РАЗРАБОТКА WEB-САЙТОВ</span>
+        <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:50px"><b><br>РАЗРАБОТКА WEB-САЙТОВ</b></span>
+        <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Предложение </a></p>
+      </div>
+    </header>
+  
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">	&#9989;ПРОЕКТЫ:</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Лендинг</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Бизнес</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">SEO</div>
+      </a>
+    </div>
+
+    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Микросайт</b> <span class="w3-right w3-tag w3-dark-grey w3-round">100 BYN</span></h1>
+      <p class="w3-text-grey">Сайт- визитка, где главная страница является &laquo;посадочной&#187;, может содержать до 10 информационных страниц, что бы пользователь смог лучше разобраться в товаре или услуге</p>
+      <hr>
+   
+      <h1><b>Дифференциальный лендинг</b> <span class="w3-right w3-tag w3-dark-grey w3-round">100 BYN</span></h1>
+      <p class="w3-text-grey">Может содержать в себе все типы лендинга</p>
+      <hr>
+      
+      <h1><b>Подписной лендинг</b> <span class="w3-right w3-tag w3-dark-grey w3-round">100 BYN</span></h1>
+      <p class="w3-text-grey">Цель данного проекта- заполучить Email или телефон посетителя. Зачастую в обмен на какое- то преимущество или бонус</p>
+      <hr>
+
+      <h1><b>Информационный лендинг</b> <span class="w3-right w3-tag w3-dark-grey w3-round">100 BYN</span></h1>
+      <p class="w3-text-grey">Познакомит посетителя с новой услугой или товаром, расскажет о грядущей акции</p>
+      <hr>
+
+      <h1><b>Продающий лендинг</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">100 BYN</span></h1>
+      <p class="w3-text-grey">Продает товар или услугу прямо сейчас на этой странице. Огромная роль отводится SEO- продвижению</p>
+      <hr>
+
+      <h1><b>Другой</b> <span class="w3-tag w3-grey w3-round">New!</span><span class="w3-right w3-tag w3-dark-grey w3-round">100 BYN</span></h1>
+      <p class="w3-text-grey">Любая Ваша идея!</p>
+    </div>
+
+
+
+
+    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Бизнес- сайт</b> <span class="w3-tag w3-grey w3-round">NEW!</span> <span class="w3-right w3-tag w3-dark-grey w3-round">200 BYN</span></h1>
+      <p class="w3-text-grey">Коммерческий сайт, используется для распространения информации о продуктах и услугах, предоставляемых фирмой</p>
+      <hr>
+   
+      <h1><b>Рекламный сайт</b> <span class="w3-right w3-tag w3-dark-grey w3-round">300 BYN</span></h1>
+      <p class="w3-text-grey">Обеспечивает прибыль от реализации продукта или услуги</p>
+      <hr>
+      
+      <h1><b>Развлекательный сайты</b> <span class="w3-right w3-tag w3-dark-grey w3-round">300 BYN</span></h1>
+      <p class="w3-text-grey">Ставят цель- развлечь посетителя. Как правило развлечение- это и есть продоваемый товар</p>
+      <hr>
+
+      <h1><b>Персональный сайт</b> <span class="w3-right w3-tag w3-dark-grey w3-round">100 BYN</span></h1>
+      <p class="w3-text-grey">Цель- 	&#171;продажа	&#187; личности, как бренда.</p>
+    </div>
+
+
+    <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Meta- оптимизация</b> <span class="w3-tag w3-grey w3-round"></span>NEW!<span class="w3-right w3-tag w3-dark-grey w3-round">100 BYN</span></h1>
+      <p class="w3-text-grey">Поисковая оптимизация через meta- теги HTML, настройка HTML- кода для поисковых систем </p>
+      <hr>
+   
+      <h1><b>Внешняя оптимизация</b> <span class="w3-right w3-tag w3-dark-grey w3-round">100 BYN/месяц</span></h1>
+      <p class="w3-text-grey">Размещение контента на сторонних площадках: отзывы, пресс- релизы, использование социальных сетей и блогов</p>
+      <hr>
+      
+      <h1><b>Bag- оптимизация</b> <span class="w3-right w3-tag w3-dark-grey w3-round">100 BYN</span></h1>
+      <p class="w3-text-grey">Устранение недочетов, которые могут привести к падению позиции сайта в поисковых выдачах</p>
+      <hr>
+      
+      <h1><b>Google Analytics</b> <span class="w3-right w3-tag w3-dark-grey w3-round">300 BYN</span></h1>
+      <p class="w3-text-grey">Определение целевой аудитории, оценка рекламной компании, оптимизация рекламного бюджета</p>
+    </div><br>
+
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">О нас</h1>
+    <p>Ежедневная прграммная разработка &reg;DzmitryR обеспечивает рост Вашего бизнеса &reg;DzmitryR- это отображение функциональных задач, пользовательского интерфейса, а также обработка пользовательских запросов. Мы делаем все то, что видит пользователь при открытии WEB- страницы. При необходимости, обеспечиваем SEO- продвижение! </p>
+    <p><strong>Главный Developer</strong> Ruban Dzmitry<img src="https://cdn.pixabay.com/photo/2016/06/15/16/16/man-1459246_1280.png" style="width:150px" class="w3-circle w3-right" alt="Developer"></p>
+    <p>Мы гордимся своими результатами!</p>
+    <img src="https://cdn.pixabay.com/photo/2015/06/24/15/45/computer-820281_1280.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+    <h1><b>Как мы работаем?</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript, ECMAScript 6</p>
+      </div>
+      <div class="w3-col s6">
+        <p>React</p>
+        <p>Bootstrap, Less</p>
+        <p>Flexbox, JSON, AJAX, JQuerty? GitHab</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+<!-- Image of location/map -->
+<img src="https://travelask.ru/system/embedded_map_attachments/files/000/000/753/original/%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA.jpg"  class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Контакты</h1>
+    <p>Viber +37533000000</p>
+    <p>Telegram +37544000000</p>
+    <p>Tel +37529000000</p>
+    <p><span class="w3-tag">Обратите внимание!</span> Мы оказываем услуги в странах СНГ!</p>
+    <p class="w3-xxlarge"><strong>Хотите заказать САЙТ?</strong> введите данные:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Как Вас зовут?" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Какой примерный бюжет?" required name="People"></p>
+      <!-- <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Дата и время" required name="date" value="2023-10-19T12:50"></p> -->
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Сообщение для нас" required name="Message"></p>
+<!--стилизую ссылку под кнопку-->
+<p id="post_name"><a href="mailto:ruban25121987@yandex.ru">Отправить</a></p>
+
+      <!-- <p><button class="w3-button w3-light-grey w3-block" type="submit">ОТПРАВИТЬ</button></p> -->
+    </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- Footer добавил ссылки на социальные сети-->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Front-End Developer&nbsp;<a href="https://www.facebook.com/profile.php?id=61552553360129&mibextid=LQQJ4d" title="Разработка WEB-сайтов" target="_blank" class="w3-hover-text-green">&nbsp;&reg;DzmitryR</a></p>
+  <p class="social_media_2"><a href="https://instagram.com/dzmitry_25?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" title="Instagram">&#128257;Instagram </a></p>
+  <p class="social_media"><a href="https://www.facebook.com/profile.php?id=61552553360129&mibextid=LQQJ4d" title="Facebook">&#128257;Facebook </a></p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
